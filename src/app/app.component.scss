@@ -1,0 +1,19 @@
+.app-carousel {
+
+  slide {
+    img {
+      width: 100%;
+      max-height: 600px;
+      min-height: 400px;
+      object-fit: cover;
+      object-position: top left;
+      background-attachment: fixed;
+    }
+  }
+
+}
+
+
+footer {
+  background-color: var(--secondary-color);
+}

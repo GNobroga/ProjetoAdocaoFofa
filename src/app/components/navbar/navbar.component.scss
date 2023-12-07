@@ -1,0 +1,23 @@
+$link-active: #0C185F;
+
+.menu {
+  background-color: var(--secondary-color);
+
+  li > a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    &.active {
+      background-color: lighten($link-active, 15);
+    }
+
+  }
+}
+
+
+h1 {
+  position: relative;
+  top: 0.3rem;
+}
